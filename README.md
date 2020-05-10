@@ -13,6 +13,7 @@
 - **[TypeScript](https://www.typescriptlang.org/)**
 - **[Express](https://expressjs.com/pt-br/)**
 - **[Socket.io](https://socket.io/)**
+- **[Socket.io](https://github.com/expressjs/cors)**
 
 ### Imagens e ícones
 - <img src="/public/communication.svg" width="23">&nbsp;&nbsp;[icon by kiranshastry](https://www.flaticon.com/authors/kiranshastry)
