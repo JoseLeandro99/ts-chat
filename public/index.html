@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <img class="logo" src="communication.svg" alt="logo" />
+    <a href="https://github.com/JoseLeandro99/ts-chat" target="_target" class="github">
+      <img src="symbols.svg" alt="github" />
+    </a>
+  </nav>
+
+  <header id="header"></header>
+
+  <div id="content">
+    <ul class="messageContainer"></ul>
+
+    <form>
+      <input name="messageText" required/>
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

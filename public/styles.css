@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+
+  background-color: #F4F6F7;
+}
+
+body, input, button {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #333333;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 10px;
+}
+
+nav img.logo {
+  width: 40px;
+}
+
+nav .github img {
+  width: 32px;
+}
+
+header {
+  padding: 30px 0;
+  margin-top: -80px;
+}
+
+header span {
+  color: #7EA8BE;
+  margin: 0 10px;
+}
+
+#content {
+  flex: 1;
+  width: 500px;
+  max-width: 100%;
+  max-height: 400px;
+  border: 0;
+}
+
+#content ul.messageContainer {
+  height: 100%;
+  list-style: none;
+  overflow-y: hidden;
+  overflow-y: auto;
+}
+
+#content ul.messageContainer li {
+  margin-bottom: 8px;
+  padding: 10px;
+  background-color: #FFFFFF;
+  border: 1px solid #7EA8BE55;
+  box-shadow: 2px 2px 2px #7EA8BE55;
+}
+
+#content ul.messageContainer li strong {
+  color: #88888866;
+  display: block;
+}
+
+#content ul.messageContainer li p {
+  margin: 4px 0;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+#content form {
+  display: flex;
+  border: 1px solid #7EA8BE;
+}
+
+#content form input, button {
+  height: 40px;
+  border: 0;
+}
+
+#content form input {
+  width: 70%;
+  padding: 0 20px;
+}
+
+#content form button {
+  width: 30%;
+  background-color: #7EA8BE;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+#content form button:hover {
+  background-color: #7EA8BE88;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* ScrollBar */
+::-webkit-scrollbar-track {
+  border: 1px solid #7EA8BE55;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background:#7EA8BE33; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7EA8BE; 
+}
