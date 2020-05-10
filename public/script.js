@@ -4,7 +4,7 @@ while(!username) {
   username = prompt('Informe um nome de usuário');
 }
 
-const socket = io('https://ts-chat.now.sh');
+const socket = io('https://my-ts-chat.herokuapp.com/');
 
 socket.on('messageResponse', data => renderMessage(data));
 
