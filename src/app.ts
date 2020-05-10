@@ -9,8 +9,8 @@ class App {
   
   constructor () {
     this.app = express();
-    this.server = new Server(this.app);
     this.app.use(cors());
+    this.server = new Server(this.app);
     this.static();
   }
 
