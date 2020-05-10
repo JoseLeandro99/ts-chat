@@ -4,7 +4,7 @@ while(!username) {
   username = prompt('Informe um nome de usuário');
 }
 
-const socket = io('http://localhost:3333');
+const socket = io('https://ts-chat.now.sh');
 
 socket.on('messageResponse', data => renderMessage(data));
 
