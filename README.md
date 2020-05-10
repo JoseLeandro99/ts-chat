@@ -7,7 +7,7 @@
 </h1><br/>
 
 **TS-Chat** é um WebApp de chat em tempo real e multiusuário.
-- [preview](https://ts-chat.now.sh/)
+- [preview](https://my-ts-chat.herokuapp.com/)
 
 ### Tecnologias usuadas:
 - **[TypeScript](https://www.typescriptlang.org/)**
